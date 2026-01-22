@@ -31,13 +31,13 @@ const AboutSection = () => {
         <div className="grid lg:grid-cols-2 gap-16 lg:gap-24 items-center">
           {/* Image */}
           <div
-            className={`relative transition-all duration-1000 ${
-              isVisible ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-12"
-            }`}
+            className={`relative transition-all duration-1000 ${isVisible ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-12"
+              }`}
           >
             <div className="aspect-[4/5] overflow-hidden">
               <img
-                src="https://images.unsplash.com/photo-1487958449943-2429e8be8625?w=800&h=1000&fit=crop"
+                title="25 din main paisa double"
+                src="https://i.pinimg.com/736x/d2/df/ba/d2dfbada8aeaa414af5055e0c6eda654.jpg"
                 alt="Architectural detail"
                 className="w-full h-full object-cover"
               />
@@ -47,9 +47,8 @@ const AboutSection = () => {
 
           {/* Content */}
           <div
-            className={`transition-all duration-1000 delay-200 ${
-              isVisible ? "opacity-100 translate-x-0" : "opacity-0 translate-x-12"
-            }`}
+            className={`transition-all duration-1000 delay-200 ${isVisible ? "opacity-100 translate-x-0" : "opacity-0 translate-x-12"
+              }`}
           >
             <p className="text-sm font-sans tracking-[0.3em] uppercase text-muted-foreground mb-6">
               About
@@ -61,25 +60,24 @@ const AboutSection = () => {
 
             <div className="space-y-6 text-muted-foreground font-sans leading-relaxed">
               <p>
-                Akshay Kumar is an architect based in Mumbai, India, with a practice 
-                rooted in the belief that architecture must serve both human needs 
-                and the broader environment. Trained at the University of Oxford, 
-                his work bridges rigorous academic theory with the pragmatic 
+                I'm  is an architect based in Mumbai, India, with a practice
+                rooted in the belief that architecture must serve both human needs
+                and the broader environment. Trained at the University of Oxford,
+                his work bridges rigorous academic theory with the pragmatic
                 realities of building in the Indian subcontinent.
               </p>
 
               <p>
-                His portfolio spans commercial, industrial, and public infrastructure 
-                projects—each approached with the same commitment to material honesty, 
-                spatial clarity, and contextual sensitivity. Whether designing a glass 
-                pavilion adjacent to heritage landmarks or reimagining industrial 
-                facilities, the work maintains a consistent thread: architecture 
-                should elevate the everyday without demanding attention.
+                My work spans commercial, industrial, and public infrastructure projects.
+                I approach each one with the same commitment to material honesty, spatial clarity,
+                and sensitivity to context. Whether I’m designing a glass pavilion beside a
+                heritage landmark or rethinking an industrial facility, the goal stays the same:
+                to create architecture that elevates everyday life without asking for attention
               </p>
 
               <p>
-                The practice operates at the intersection of tradition and 
-                innovation, drawing equally from vernacular building wisdom and 
+                The practice operates at the intersection of tradition and
+                innovation, drawing equally from vernacular building wisdom and
                 contemporary construction technology.
               </p>
             </div>

@@ -12,93 +12,52 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    id: "taj-glass-pavilion",
-    title: "Taj Glass Pavilion",
-    shortDescription: "A modern glass structure harmonizing with Mumbai's iconic heritage",
-    fullDescription: "The Taj Glass Pavilion represents a dialogue between contemporary architecture and historical context. Positioned adjacent to the Taj Mahal Hotel, this structure employs advanced glass technology to create transparency while maintaining thermal efficiency. The design philosophy centers on visual permeability—allowing the heritage structure to remain the primary focal point while offering a modern counterpoint that speaks to Mumbai's evolution as a global city.",
+    id: "The Taj Mahal Palace",
+    title: "The Taj Mahal Palace",
+    shortDescription: "The Indian Hotels Company Limited (IHCL)",
+    fullDescription: "taj mahal hotel mumbai maine nehi banaya uske baju main jo puri kach wli building haina  oberoi builder ne banaya tha likin jo design hain o mera hain ",
     location: "Mumbai, India",
-    year: "2024",
+    year: "1903",
     category: "Commercial",
-    heroImage: "https://images.unsplash.com/photo-1486718448742-163732cd1544?w=1600&h=900&fit=crop",
+    heroImage: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcf.bstatic.com%2Fxdata%2Fimages%2Fhotel%2Fmax1024x768%2F103705059.jpg%3Fk%3D9e078265b31ad1815a573da8ed2a665f863e3925e1efd730df703421868a2ada%26o%3D%26hp%3D1&f=1&nofb=1&ipt=1d0c7523773eebd5c8ee2c052bee7873b4e3809b992af03aa569d702d5fc4330",
     images: [
-      "https://images.unsplash.com/photo-1487958449943-2429e8be8625?w=1200&h=800&fit=crop",
-      "https://images.unsplash.com/photo-1496307653780-42ee777d4833?w=1200&h=800&fit=crop",
-      "https://images.unsplash.com/photo-1439337153520-7082a56a81f4?w=1200&h=800&fit=crop"
+      "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.redsavannah.com%2F-%2Fmedia%2Fcountries%2Findia%2Faccommodation%2Ftaj-mahal-mumbai%2Ftaj-palace-mumbai-grounds.jpg%3Fh%3D1050%26la%3Den%26w%3D1400%26udi%3D1%26cropregion%3D0&f=1&nofb=1&ipt=7828d4f0d64855cfe5b909024a6a61bd96329adb9451ea818a3b8863581fd935",
+
+      "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fgtspirit.com%2Fwp-content%2Fuploads%2F2015%2F02%2FTajMahalPalace_Mumbai_GatewayofIndia_Suite_Bedroom.jpg&f=1&nofb=1&ipt=3b1af76d610de4531c0eff167abcc637da89fbe6887de5fddc4cb9dc25efa293",
+
+      "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.tropicalvenues.com%2Fuploads%2Fthe-taj-mahal-palace%2Fgallery-the-taj-mahal-palace-2579.jpeg&f=1&nofb=1&ipt=c9bce4a4744579916a4d01348c4df88e13e508fe5ebdd0c2cb9e5b5648815970"
     ]
   },
   {
-    id: "lal-qila-industrial",
+    id: "lal qila industrial",
     title: "Lal Qila Industrial Complex",
-    shortDescription: "Industrial architecture reimagined with dignity and function",
-    fullDescription: "The Lal Qila Chaap manufacturing facility challenges the notion that industrial spaces must sacrifice aesthetics for function. This complex integrates production workflows with worker welfare spaces, natural lighting systems, and sustainable ventilation. The architecture celebrates the dignity of manufacturing while maintaining operational efficiency. Raw concrete meets strategic glazing to create an environment where craftsmanship flourishes.",
+    shortDescription: " clothing manufacturers, apparel wholesalers and clothing wholesale",
+    fullDescription: "Lal qila chaap underwear & banyan uska jo malik  hain uski wo factory maine banayi hain",
     location: "Delhi NCR, India",
     year: "2023",
     category: "Industrial",
-    heroImage: "https://images.unsplash.com/photo-1493397212122-2b85dda8106b?w=1600&h=900&fit=crop",
+    heroImage: "https://static.wixstatic.com/media/464bd7_18fdcc1b644a42749330d347f20455b5~mv2.jpeg/v1/fill/w_980,h_763,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/464bd7_18fdcc1b644a42749330d347f20455b5~mv2.jpeg",
     images: [
-      "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1200&h=800&fit=crop",
-      "https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1200&h=800&fit=crop",
-      "https://images.unsplash.com/photo-1565008447742-97f6f38c985c?w=1200&h=800&fit=crop"
+      "https://apparelresources.com/wp-content/uploads/2019/10/Chinese-garment-factory.jpg",
+
+      "https://apparelresources.com/wp-content/uploads/2021/07/China%E2%80%99s-garment-export-increases-40.30-to-US-71.53-billion-in-H1-%E2%80%9921.jpg",
+
+      "https://th-i.thgim.com/public/incoming/hnaxja/article68430100.ece/alternates/FREE_1200/IMG_Textile_2_1_4VD1K1MJ.jpg"
     ]
   },
   {
-    id: "vertical-mobility-plaza",
-    title: "Vertical Mobility Plaza",
-    shortDescription: "Multi-level parking infrastructure as urban sculpture",
-    fullDescription: "The Vertical Mobility Plaza transforms the utilitarian parking structure into civic architecture. Rather than hiding vehicles behind opaque facades, the design celebrates movement through perforated metal screens that animate with shadow play throughout the day. The structure incorporates electric vehicle charging infrastructure, bicycle parking, and pedestrian pathways that connect to the broader urban fabric. Rooftop gardens provide green space while managing stormwater.",
+    id: "parking lot",
+    title: "parking lot",
+    shortDescription: "save on parking with convenient garages",
+    fullDescription: "Or maine banaya hain parking loot",
     location: "Mumbai, India",
     year: "2024",
     category: "Infrastructure",
-    heroImage: "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=1600&h=900&fit=crop",
+    heroImage: "https://i.pinimg.com/1200x/2d/de/84/2dde8449448b6dacd559a35e3b7e0c28.jpg",
     images: [
-      "https://images.unsplash.com/photo-1486718448742-163732cd1544?w=1200&h=800&fit=crop",
-      "https://images.unsplash.com/photo-1479839672679-a46483c0e7c8?w=1200&h=800&fit=crop",
-      "https://images.unsplash.com/photo-1518005020951-eccb494ad742?w=1200&h=800&fit=crop"
+      "https://i.pinimg.com/1200x/0f/0a/81/0f0a81bf7c2d230441eaaf8d5f5cc066.jpg",
+      "https://i.pinimg.com/736x/09/2f/3f/092f3f4b86436575f1e32b7c54fb1c29.jpg",
+      
     ]
   },
-  {
-    id: "breathing-commons",
-    title: "The Breathing Commons",
-    shortDescription: "An urban park designed for contemplation and community",
-    fullDescription: "The Breathing Commons addresses Mumbai's need for public green space through careful landscape architecture and minimal built intervention. The design creates a sequence of outdoor rooms—spaces for solitude, gathering, play, and reflection. Native planting strategies reduce maintenance requirements while supporting local biodiversity. Water features provide cooling and mask urban noise, creating an oasis of calm within the city's density.",
-    location: "Mumbai, India",
-    year: "2023",
-    category: "Landscape",
-    heroImage: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1600&h=900&fit=crop",
-    images: [
-      "https://images.unsplash.com/photo-1476231682828-37e571bc172f?w=1200&h=800&fit=crop",
-      "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=1200&h=800&fit=crop",
-      "https://images.unsplash.com/photo-1502082553048-f009c37129b9?w=1200&h=800&fit=crop"
-    ]
-  },
-  {
-    id: "threshold-pavilion",
-    title: "Threshold Pavilion",
-    shortDescription: "Public amenity architecture that elevates the everyday",
-    fullDescription: "The Threshold Pavilion demonstrates that even the most functional public infrastructure deserves architectural consideration. This gateway facility combines essential amenities with a civic presence that marks arrival and departure. Clean geometries in exposed concrete provide durability while the interplay of solid and void creates natural ventilation. Integrated planters and seating transform necessary infrastructure into a pleasant pause in the urban journey.",
-    location: "Mumbai, India",
-    year: "2024",
-    category: "Civic",
-    heroImage: "https://images.unsplash.com/photo-1511818966892-d7d671e672a2?w=1600&h=900&fit=crop",
-    images: [
-      "https://images.unsplash.com/photo-1467226632440-65f0b4957563?w=1200&h=800&fit=crop",
-      "https://images.unsplash.com/photo-1470723710355-95304d8aece4?w=1200&h=800&fit=crop",
-      "https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=1200&h=800&fit=crop"
-    ]
-  },
-  {
-    id: "eternal-ground",
-    title: "Eternal Ground",
-    shortDescription: "Cemetery architecture honoring memory through spatial poetry",
-    fullDescription: "Eternal Ground approaches memorial architecture with profound respect for grief and remembrance. The design creates a contemplative landscape where architecture emerges from the earth rather than imposing upon it. Stone walls define intimate memorial gardens while a central pavilion provides shelter for ceremonies. The material palette—weathering steel, local stone, and native grasses—ages gracefully, becoming more beautiful with time as the space accumulates meaning.",
-    location: "Maharashtra, India",
-    year: "2023",
-    category: "Memorial",
-    heroImage: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1600&h=900&fit=crop",
-    images: [
-      "https://images.unsplash.com/photo-1494891848038-7bd202a2afeb?w=1200&h=800&fit=crop",
-      "https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=1200&h=800&fit=crop",
-      "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=1200&h=800&fit=crop"
-    ]
-  }
 ];

@@ -91,7 +91,7 @@ const PhilosophySection = () => {
             <div className="relative">
               <div className="aspect-[3/4] overflow-hidden">
                 <img
-                  src="https://images.unsplash.com/photo-1496307653780-42ee777d4833?w=800&h=1067&fit=crop"
+                  src="https://i.pinimg.com/736x/b8/75/c6/b875c6856f1b994be41658e28f086777.jpg"
                   alt="Light through architecture"
                   className="w-full h-full object-cover"
                 />
@@ -100,9 +100,9 @@ const PhilosophySection = () => {
             </div>
 
             <blockquote className="mt-12 font-serif text-2xl italic text-center text-muted-foreground">
-              "The details are not the details. They make the design."
+              "Ha Malum Hai Chal Apne Baap Ko Mat Sikha"
               <cite className="block mt-4 text-sm font-sans not-italic tracking-wider">
-                — Charles Eames
+                — Akshay 
               </cite>
             </blockquote>
           </div>
