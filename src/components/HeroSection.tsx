@@ -49,7 +49,7 @@ const HeroSection = () => {
           }`}
         >
           <p className="font-serif text-xl md:text-2xl text-muted-foreground italic max-w-2xl mx-auto leading-relaxed">
-            "Architecture that balances silence, scale, and story."
+            "50 rupaya Kat Overacting ka"
           </p>
         </div>
 
